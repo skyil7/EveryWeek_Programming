@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class test {
 
@@ -37,7 +37,7 @@ Output: // 0, 1, 2, 3, 5, 8, 13, 21, 34 So, 2 + 8 + 34 = 44
 
         int sum = 0;
 
-        for (int j = 0; j < i; j++) {
+        for (int j = 2; j < i; j++) {
             if (fibonacci[j] % 2 == 0)
                 sum += fibonacci[j];
         }
