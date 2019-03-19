@@ -14,18 +14,18 @@
     public static void main(String args[]) {
         int array[] = {8, 7, 2, 5, 3, 1};
         int S = 10;
-        int flag = 0;
+        boolean flag = false;
         String print = "";
 
         for (int i = 0; i < array.length; i++) {
             int looking = 10 - array[i];
             for (int g = i + 1; g < array.length; g++) {
                 if (array[g] == looking) {
-                    if (flag == 0)
+                    if (flag == false)
                         print = "Index " + i + " and " + g + " (" + array[i] + "+" + array[g] + ")";
                     else
                         print = print + " or Index " + i + " and " + g + " (" + array[i] + "+" + array[g] + ")";
-                    flag++;
+                    flag=true;
                 }
             }
         }
