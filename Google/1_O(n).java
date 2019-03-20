@@ -16,7 +16,6 @@ public class test {
     public static void main(String args[]) {
         int array[] = {8, 7, 2, 5, 3, 1};
         int S = 10;
-        boolean flag = false;
 
         HashSet<Integer> set = new HashSet<Integer>();
 
